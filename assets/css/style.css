@@ -1,0 +1,74 @@
+
+.color-background-education{
+
+    background-color:#faebd7;
+}
+
+.color-background-experience{
+
+    background-color: #cbbba5;
+}
+
+.color-background-portfolio{
+
+    background-color: #b1a89e;
+}
+
+
+
+.foto-cv{
+    
+  
+    
+}
+  
+  .container img {
+    width: 300px;
+    height: 400px;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.text-small{
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200; 
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    max-width: 400px;
+    
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .flex-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.column {
+  
+}
